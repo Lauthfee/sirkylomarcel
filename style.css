@@ -50,7 +50,7 @@ h2 {
 
 .button {
   color: white;
-  background-color: blue;
+  background-color: #001e6b;
   border-radius: 5px;
   padding: 10px;
   text-align: center;
@@ -68,7 +68,7 @@ h2 {
   text-align: left;
 }
 
-.social {
+/*.social {
   list-style: none;
   padding-left: 0px;
   margin: 0px 0px 0px 0px;
@@ -86,7 +86,7 @@ h2 {
 }
 .social li {
   display: inline-block;
-}
+}*/
 
 .PS {
   font-size: 12px;
@@ -240,3 +240,27 @@ font-size: 24px
   -webkit-transform: translate3d(125px, 0, 0);
           transform: translate3d(125px, 0, 0);
 } 
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
